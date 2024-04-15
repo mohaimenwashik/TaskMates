@@ -14,6 +14,13 @@
 		69B849302BCBF4A800DB5320 /* TaskMatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B8492F2BCBF4A800DB5320 /* TaskMatesTests.swift */; };
 		69B8493A2BCBF4A800DB5320 /* TaskMatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B849392BCBF4A800DB5320 /* TaskMatesUITests.swift */; };
 		69B8493C2BCBF4A800DB5320 /* TaskMatesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B8493B2BCBF4A800DB5320 /* TaskMatesUITestsLaunchTests.swift */; };
+		69B849492BCBF4DB00DB5320 /* Roomates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B849482BCBF4DB00DB5320 /* Roomates.swift */; };
+		69B8494B2BCBFA5D00DB5320 /* EditRoomateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B8494A2BCBFA5D00DB5320 /* EditRoomateView.swift */; };
+		69B8494D2BCC0C4B00DB5320 /* RoomateListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B8494C2BCC0C4B00DB5320 /* RoomateListingView.swift */; };
+		69B8494F2BCC0C9B00DB5320 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B8494E2BCC0C9B00DB5320 /* Tasks.swift */; };
+		69B849552BCC1C9800DB5320 /* EditTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B849542BCC1C9800DB5320 /* EditTasksView.swift */; };
+		69B849572BCC247A00DB5320 /* TasksListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B849562BCC247A00DB5320 /* TasksListingView.swift */; };
+		69B849592BCD2F4D00DB5320 /* RoomateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B849582BCD2F4D00DB5320 /* RoomateList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		69B849352BCBF4A800DB5320 /* TaskMatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskMatesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B849392BCBF4A800DB5320 /* TaskMatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskMatesUITests.swift; sourceTree = "<group>"; };
 		69B8493B2BCBF4A800DB5320 /* TaskMatesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskMatesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		69B849482BCBF4DB00DB5320 /* Roomates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roomates.swift; sourceTree = "<group>"; };
+		69B8494A2BCBFA5D00DB5320 /* EditRoomateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRoomateView.swift; sourceTree = "<group>"; };
+		69B8494C2BCC0C4B00DB5320 /* RoomateListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomateListingView.swift; sourceTree = "<group>"; };
+		69B8494E2BCC0C9B00DB5320 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		69B849542BCC1C9800DB5320 /* EditTasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTasksView.swift; sourceTree = "<group>"; };
+		69B849562BCC247A00DB5320 /* TasksListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListingView.swift; sourceTree = "<group>"; };
+		69B849582BCD2F4D00DB5320 /* RoomateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomateList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +110,13 @@
 			children = (
 				69B8491E2BCBF4A600DB5320 /* TaskMatesApp.swift */,
 				69B849202BCBF4A600DB5320 /* ContentView.swift */,
+				69B8494C2BCC0C4B00DB5320 /* RoomateListingView.swift */,
+				69B849582BCD2F4D00DB5320 /* RoomateList.swift */,
+				69B8494E2BCC0C9B00DB5320 /* Tasks.swift */,
+				69B8494A2BCBFA5D00DB5320 /* EditRoomateView.swift */,
+				69B849562BCC247A00DB5320 /* TasksListingView.swift */,
+				69B849542BCC1C9800DB5320 /* EditTasksView.swift */,
+				69B849482BCBF4DB00DB5320 /* Roomates.swift */,
 				69B849222BCBF4A700DB5320 /* Assets.xcassets */,
 				69B849242BCBF4A700DB5320 /* Preview Content */,
 			);
@@ -257,8 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B8494B2BCBFA5D00DB5320 /* EditRoomateView.swift in Sources */,
+				69B849592BCD2F4D00DB5320 /* RoomateList.swift in Sources */,
 				69B849212BCBF4A600DB5320 /* ContentView.swift in Sources */,
 				69B8491F2BCBF4A600DB5320 /* TaskMatesApp.swift in Sources */,
+				69B8494D2BCC0C4B00DB5320 /* RoomateListingView.swift in Sources */,
+				69B849572BCC247A00DB5320 /* TasksListingView.swift in Sources */,
+				69B8494F2BCC0C9B00DB5320 /* Tasks.swift in Sources */,
+				69B849552BCC1C9800DB5320 /* EditTasksView.swift in Sources */,
+				69B849492BCBF4DB00DB5320 /* Roomates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
