@@ -20,7 +20,7 @@ struct TasksListingView: View {
                     VStack(alignment: .leading) {
                         Text(task.tasks)
                             .font(.headline)
-                        
+//                        Text("Assigned to: \(task.roomate.)")
                         Text(task.dueDate.formatted(date: .long, time: .shortened))
 //                            .toolbar {
 //                                Button("Add Tasks", action: addTask)
@@ -34,7 +34,7 @@ struct TasksListingView: View {
     
     init(sort: SortDescriptor<Tasks>) {
         _tasks = Query(sort: [sort])
-//        _roomate = Roomates
+//        _roomate.self = [Roomates.init]
     }
     
     func deleteTasks(_ indexSet: IndexSet) {

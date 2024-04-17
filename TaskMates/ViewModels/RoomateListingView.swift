@@ -11,8 +11,6 @@ import SwiftData
 struct RoomateListingView: View {
     @Environment(\.modelContext) var modelContext
     @Query(sort: [SortDescriptor(\Roomates.name, order: .reverse)]) var roomates: [Roomates]
-//    @Query(sort: [SortDescriptor(\Tasks.priority), SortDescriptor(\Tasks.dueDate, order: .reverse)]) var tasks: [Tasks]
-    
     
     var body: some View {
         List {

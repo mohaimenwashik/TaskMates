@@ -28,9 +28,10 @@ struct EditRoomateView: View {
                     TextField("Phone Number", text: $roomate.phone)
                 }
                 Section("Tasks") {
+
                     ForEach(roomate.tasks) { task in
                         NavigationLink(destination: EditTasksView(tasks: task)) {
-                            Text(task.tasks)
+                            Text("\(roomate.name) :  \(task.tasks) -> \(task.priority)")
                         }
                     }
                     

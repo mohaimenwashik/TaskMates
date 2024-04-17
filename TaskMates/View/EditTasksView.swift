@@ -10,12 +10,10 @@ import SwiftData
 
 struct EditTasksView: View {
     @Bindable var tasks: Tasks
-//    @Bindable var roomate: Roomates
-    @State private var isComplete: Bool = false
     
     var body: some View {
         Form {
-            TextField("Name", text: $tasks.tasks)
+            TextField("Task", text: $tasks.tasks)
 //            TextField("Assigned to", text: $roomate.name)
             DatePicker("Due Date", selection: $tasks.dueDate)
             
@@ -26,10 +24,12 @@ struct EditTasksView: View {
                     Text("High").tag(3)
                 }
                 .pickerStyle(.segmented)
-                Toggle(isOn: $isComplete) {
-                    Text("Completed")
+                
+                Toggle(isOn: $tasks.onCompleted) {
+                    Text("Progress")
+                    }
                 }
-            }
+            
         }
         .navigationBarTitleDisplayMode(.inline)
     }
